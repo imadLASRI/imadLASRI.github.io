@@ -1,0 +1,75 @@
+.customTitle{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.sep50{
+    padding: 40px 0;
+    display: block;
+}
+.sep25{
+    padding: 20px 0;
+    display: block;
+}
+
+.customContent{
+    /* background-image: url('../img/bg.jpg'); */
+    background-color: #161616;
+    background-size: auto;
+}
+.projects{
+    margin: 0 !important;
+}
+.projectsContainer{
+    background-color: #171717db;
+}
+.single_item{
+    display: flex;
+    justify-content: center;
+}
+.single_item figure {
+    width: 60%;
+}
+
+/* skills */
+#skill-main{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 70px;
+}
+#skill-main li{
+    margin: 0 50px;
+}
+.expand{
+    color: #f88520;
+}
+.expand img, .expand svg{
+    width: 4em;
+}
+
+h3.skillName{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    color: #fff;
+    margin-top: -5px;
+    cursor: default;
+}
+
+.skill i.colored{
+    font-size: 5em;
+    color: #fff;
+}
+.skill i.colored:hover{
+    color: #f88520;
+}
+
+.skill li{
+    margin: 20px 0;
+}
+
+h1.title span{
+    color: #f88520;
+}
