@@ -913,6 +913,10 @@ header {
 .single_item {
     overflow: hidden;
     margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .single_item img {
@@ -952,20 +956,7 @@ header {
     margin-top: 14px; */
 }
 
-.single_item figure figcaption .title {
-    font-size: 20px;
-    color: rgb(248, 133, 32);;
-    line-height: 32px;
-    cursor: default;
-}
 
-.single_item figure figcaption span {
-    font-size: 12px;
-    font-weight: bold;
-    display: block;
-    color: rgb(248, 133, 32);;
-    cursor: default;
-}
 
 .isotope_items .col-md-3.single_item figure figcaption .title {
     font-size: 16px;

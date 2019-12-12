@@ -77,3 +77,29 @@ h3.skillName{
 h1.title span{
     color: #f88520;
 }
+
+.single_item .projectDesc .title {
+    font-size: 20px;
+    color: rgb(228, 174, 126);;
+    line-height: 32px;
+    cursor: default;
+}
+.single_item .projectDesc .title:hover{
+    color: rgb(238, 111, 0);;
+}
+
+.single_item .projectDesc i.colored, .single_item .projectDesc i svg{
+    width: 2em;
+}
+.single_item .projectDesc i.colored{
+    font-size: 3em;
+    color: #fff;
+    cursor: default;
+}
+.single_item .projectDesc span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    cursor: default;
+}
