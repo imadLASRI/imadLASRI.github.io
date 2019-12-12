@@ -478,8 +478,9 @@ if ($(window).width() > 481) {
         $(this).find('g').attr('fill', '#fff');
         $(this).find('h3.skillName').css('color', '#fff');
     });
-		
-    
+
+
+
 }); // document read end 
 
 

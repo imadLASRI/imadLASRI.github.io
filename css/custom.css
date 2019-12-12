@@ -24,16 +24,20 @@
 }
 .projectsContainer{
     background-color: #171717db;
+    margin-top: 150px;
 }
 .single_item{
     display: flex;
     justify-content: center;
 }
 .single_item figure {
-    width: 60%;
+    width: 80%;
 }
 
 /* skills */
+/* .skills{
+    height: 70vh;
+} */
 #skill-main{
     display: flex;
     justify-content: space-between;
