@@ -2,7 +2,21 @@
     color: white;
     font-size: 30px;
     text-align: center;
-    padding-top: 30px;
+    margin-top: 60px;
+    display: block;
+    width: 60%;
+    letter-spacing: 5px;
+    border-bottom: 1px solid rgba(214, 116, 29, 0.7);
+    border-radius: 50px;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .sep50{
@@ -25,6 +39,7 @@
 .projectsContainer{
     background-color: #171717db;
     margin-top: 150px;
+    text-align: center;
 }
 .single_item{
     display: flex;
@@ -60,6 +75,13 @@ h3.skillName{
     color: #fff;
     margin-top: -5px;
     cursor: default;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
 }
 
 .skill i.colored{
@@ -84,9 +106,15 @@ h1.title span{
     line-height: 32px;
     cursor: default;
     font-family: 'Lilita One';
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */
 }
 .single_item .projectDesc .title:hover{
-    color: rgb(238, 111, 0);;
+    color: rgb(238, 111, 0);
 }
 
 .single_item .projectDesc i.colored, .single_item .projectDesc i svg{
