@@ -80,9 +80,10 @@ h1.title span{
 
 .single_item .projectDesc .title {
     font-size: 20px;
-    color: rgb(228, 174, 126);;
+    color: rgb(171, 100, 38);
     line-height: 32px;
     cursor: default;
+    font-family: 'Lilita One';
 }
 .single_item .projectDesc .title:hover{
     color: rgb(238, 111, 0);;
