@@ -1,134 +1,137 @@
-.customTitle{
-    color: white;
-    font-size: 30px;
-    text-align: center;
-    margin-top: 60px;
-    display: block;
-    width: 60%;
-    letter-spacing: 5px;
-    border-bottom: 1px solid rgba(214, 116, 29, 0.7);
-    border-radius: 50px;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
+.customTitle {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 60px;
+  display: block;
+  width: 60%;
+  letter-spacing: 5px;
+  border-bottom: 1px solid rgba(214, 116, 29, 0.7);
+  border-radius: 50px;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-.sep50{
-    padding: 40px 0;
-    display: block;
-}
-.sep25{
-    padding: 20px 0;
-    display: block;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
-.customContent{
-    /* background-image: url('../img/bg.jpg'); */
-    background-color: #161616;
-    background-size: auto;
+.sep50 {
+  padding: 40px 0;
+  display: block;
 }
-.projects{
-    margin: 0 !important;
+.sep25 {
+  padding: 20px 0;
+  display: block;
 }
-.projectsContainer{
-    background-color: #171717db;
-    margin-top: 150px;
-    text-align: center;
+
+.customContent {
+  /* background-image: url('../img/bg.jpg'); */
+  background-color: #161616;
+  background-size: auto;
 }
-.single_item{
-    display: flex;
-    justify-content: center;
+.projects {
+  margin: 0 !important;
+}
+.projectsContainer {
+  background-color: #171717db;
+  margin-top: 150px;
+  text-align: center;
+}
+.single_item {
+  display: flex;
+  justify-content: center;
 }
 .single_item figure {
-    width: 80%;
+  width: 80%;
+  box-shadow: 0px 1px 10px 0px orange;
 }
 
 /* skills */
 /* .skills{
     height: 70vh;
 } */
-#skill-main{
-    display: flex;
-    justify-content: space-between;
-    margin: 0 70px;
+#skill-main {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 70px;
 }
-#skill-main li{
-    margin: 0 50px;
+#skill-main li {
+  margin: 0 50px;
 }
-.expand{
-    color: #f88520;
+.expand {
+  color: #f88520;
 }
-.expand img, .expand svg{
-    width: 4em;
+.expand img,
+.expand svg {
+  width: 4em;
 }
 
-h3.skillName{
-    font-size: 14px;
-    font-weight: 600;
-    letter-spacing: -0.5px;
-    color: #fff;
-    margin-top: -5px;
-    cursor: default;
-    -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Old versions of Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
+h3.skillName {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  color: #fff;
+  margin-top: -5px;
+  cursor: default;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Opera and Firefox */
 }
 
-.skill i.colored{
-    font-size: 5em;
-    color: #fff;
+.skill i.colored {
+  font-size: 5em;
+  color: #fff;
 }
-.skill i.colored:hover{
-    color: #f88520;
-}
-
-.skill li{
-    margin: 20px 0;
+.skill i.colored:hover {
+  color: #f88520;
 }
 
-h1.title span{
-    color: #f88520;
+.skill li {
+  margin: 20px 0;
+}
+
+h1.title span {
+  color: #f88520;
 }
 
 .single_item .projectDesc .title {
-    font-size: 20px;
-    color: rgb(171, 100, 38);
-    line-height: 32px;
-    cursor: default;
-    font-family: 'Lilita One';
-    -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-    -khtml-user-select: none; /* Konqueror HTML */
-    -moz-user-select: none; /* Old versions of Firefox */
-    -ms-user-select: none; /* Internet Explorer/Edge */
-    user-select: none; /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */
+  font-size: 20px;
+  color: rgb(171, 100, 38);
+  line-height: 32px;
+  cursor: default;
+  font-family: "Lilita One";
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */
 }
-.single_item .projectDesc .title:hover{
-    color: rgb(238, 111, 0);
+.single_item .projectDesc .title:hover {
+  color: rgb(238, 111, 0);
 }
 
-.single_item .projectDesc i.colored, .single_item .projectDesc i svg{
-    width: 2em;
+.single_item .projectDesc i.colored,
+.single_item .projectDesc i svg {
+  width: 2em;
 }
-.single_item .projectDesc i.colored{
-    font-size: 3em;
-    color: #fff;
-    cursor: default;
+.single_item .projectDesc i.colored {
+  font-size: 3em;
+  color: #fff;
+  cursor: default;
 }
 .single_item .projectDesc span {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-    cursor: default;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  cursor: default;
 }
