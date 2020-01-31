@@ -94,7 +94,7 @@
                 <h1 class="main-title" id="myName"></h1><br>
                 <h2 class="main-title" id="myJob"></h2>
                 <div class="social">
-                    <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <!-- <a href="#" target="_blank"><i class="fab fa-facebook"></i></a> -->
                     <a href="https://github.com/imadLASRI/" target="_blank"><i class="fab fa-github"></i></a>
                     <a href="https://www.linkedin.com/in/imad-lasri-506839176/" target="_blank"><i
                             class="fab fa-linkedin"></i></a>
@@ -345,7 +345,7 @@
             <!-- Projects
     ================================================== -->
             <section id="projects" class="content projects">
-                <div class="projectsContainer row center-xs" style="margin: 0 30px;">
+                <div class="projectsContainer row center-xs" style="margin: 0 50px;">
                     <h1 class="title customTitle col-md-6" style="font-size: 25px;">LATEST <span>PROJECTS</span></h1>
                     <span class="sep25"></span>
 
@@ -353,7 +353,7 @@
                         <div class="row center-xs" style="position: relative;">
 
                             <!-- Item offset-md-2 -->
-                            <div class="single_item web-design col-md-4">
+                            <div class="single_item web-design col-md-6">
                                 <figure>
                                     <a href="https://github.com/imadLASRI/todoIT"">
                                         <img src="img/portfolio/todoProject.jpg" alt="todo project REPOSITORY">
@@ -496,12 +496,13 @@
                                 </div>
                             </div>
                             <!-- Item -->
+
                             <!-- Item -->
-                            <div class="single_item web-design col-md-4">
+                            <div class="single_item web-design col-md-6">
                                 <figure>
                                     <a href="">
                                         <img src="img/portfolio/incomedashboardProject.jpg" alt="">
-                                        <p class="repo">No repository(50%)</p>
+                                        <p class="repo">No repository yet (50%)</p>
                                     </a>
                                 </figure>
                                 <div class="projectDesc">
@@ -642,8 +643,9 @@
                                 </div>
                             </div>
                             <!-- Item -->
+
                             <!-- Item -->
-                            <div class="single_item web-design col-md-4">
+                            <div class="single_item web-design col-md-6">
                                 <figure>
                                     <a href="https://github.com/imadLASRI/Projectrack">
                                         <img src="img/portfolio/emaginprojectsProject.jpg" alt="">
@@ -753,8 +755,9 @@
                                 </div>
                             </div>
                             <!-- Item -->
+
                             <!-- Item -->
-                            <div class="single_item web-design col-md-4">
+                            <div class="single_item web-design col-md-6">
                                 <figure>
                                     <a href="https://github.com/imadLASRI/SwiftMailer_NoComposer" target="_blank">
                                         <img src="img/portfolio/swiftmailernocomposerProject.jpg" alt="">
@@ -864,15 +867,16 @@
 
                     <div class="col-lg-9 col-md-9">
                         <div class="social">
-                            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                            <!-- <a href="#" target="_blank"><i class="fab fa-facebook"></i></a> -->
                             <a href="https://github.com/imadLASRI/" target="_blank"><i class="fab fa-github"></i></a>
                             <a href="https://www.linkedin.com/in/imad-lasri-506839176/" target="_blank"><i
                                     class="fab fa-linkedin"></i></a>
                             <!-- <a href="#" target="_blank"><i class="fab fa-telegram-plane"></i></a> -->
-                        </div><br>
+                        </div>
                         <!-- <p>Rabat, Morocco</p><br> -->
                         <p>ImadLasri@hotmail.fr</p>
                     </div>
+                    
                     <div class="col-lg-3 col-md-3">
                         <div class="uptotop">up to top</div>
                     </div>
@@ -901,8 +905,7 @@
             });
 
             $('figure').on("mouseout", function(){
-                $(this).find('p.repo').hide('slow');
-                // $(this).find('p.repo').css("visibility", "hidden");
+                $(this).find('p.repo').hide();
             });
         });
         

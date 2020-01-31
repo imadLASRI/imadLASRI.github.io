@@ -46,8 +46,9 @@
   justify-content: center;
 }
 .single_item figure {
-  width: 90%;
-  box-shadow: 0px -4px 36px -11px orange;
+  width: 80%;
+  box-shadow: 0px 9px 15px -8px orange;
+  border-radius: 10px;
 }
 
 /* skills */
@@ -142,8 +143,7 @@ h1.title span {
   }
 }
 .repo{
-  color: white; 
-  font-size: 20px; 
-  visibility: hidden;
-  padding-top: 7px;
+  color: white;
+  font-size: 20px;
+  padding-top: 15px;
 }
