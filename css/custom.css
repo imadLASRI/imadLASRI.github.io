@@ -40,6 +40,9 @@
   background-color: #171717db;
   margin-top: 150px;
   text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .single_item {
   display: flex;
