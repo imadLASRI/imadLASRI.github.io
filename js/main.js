@@ -119,7 +119,7 @@ Preloader
 	setTimeout(function(){
         $('.preloader').fadeOut();
         
-        $('.cd-transition-layer').addClass('closing').delay(2000).queue(function(){
+        $('.cd-transition-layer').addClass('closing').delay(1000).queue(function(){
             $(this).removeClass("visible closing opening").dequeue();
         });
         
