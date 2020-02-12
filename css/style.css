@@ -946,7 +946,7 @@ header {
     -webkit-transition: all ease 0.3s;
 }
 
-.single_item figure figcaption:after {
+/* .single_item figure figcaption:after { */
     /* content: '';
     background: url(../img/right-arrow-w.svg) no-repeat;
     background-size: 100%;
@@ -954,7 +954,7 @@ header {
     height: 14px;
     display: block;
     margin-top: 14px; */
-}
+/* } */
 
 
 
@@ -1506,7 +1506,7 @@ footer p {
     -webkit-transition: color ease .3s;
     -moz-transition: color ease .3s;
     cursor: pointer;
-    float: right;
+    /* float: right; */
     padding-top: 77px;
 }
 
