@@ -974,19 +974,20 @@
 
             $('figure').on("mouseover", function(){
                     $(this).find('p.repo').css("visibility", "visible");
-                    $(this).find('p.repo').show('medium');
+                    $(this).find('p.repo').show();
             });
 
             $('figure').on("mouseout", function(){
                 $(this).find('p.repo').hide();
+                $(this).find('p.repo').css("visibility", "hidden");
             });
 
             // MODALS
-            $('#caisseProj').click(function(e){
-                e.preventDefault();
-                $('#openModal').data('target', '#kaka');
-                $('#openModal').trigger('click');
-            });
+                // $('#caisseProj').click(function(e){
+                //     e.preventDefault();
+                //     $('#openModal').data('target', '#kaka');
+                //     $('#openModal').trigger('click');
+                // });
 
         });
     
