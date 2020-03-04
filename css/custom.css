@@ -40,13 +40,14 @@
   background-color: #171717db;
   margin-top: 150px;
   text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .single_item {
   display: flex;
   justify-content: center;
+  /* align-items: inherit; */
 }
 .single_item figure {
   width: 80%;
@@ -166,6 +167,6 @@ h1.title span {
 @media only screen and (max-width: 430px) {
   #projcustomTitle{
     font-size: 16px !important;
-    width: 100%;
+    width: 70%;
   }
 }
