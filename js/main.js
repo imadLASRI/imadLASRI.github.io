@@ -79,7 +79,7 @@ Preloader
             typeSpeed: 60,
             });
         var myJob = new Typed('#myJob', {
-            strings: ["I'm A BackEnd Web Developer;"],
+            strings: ["I'm A Web Developer;"],
             typeSpeed: 60,
             loop: false
             });
