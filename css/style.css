@@ -921,8 +921,8 @@ header {
 }
 
 .single_item img {
-        -webkit-filter: grayscale(90%);
-        filter: grayscale(90%);
+        -webkit-filter: grayscale(50%);
+        filter: grayscale(50%);
     transform: scale(1.0);
     width: 100%;
     border-radius: 4px;

@@ -51,8 +51,8 @@
 }
 .single_item figure {
   width: 80%;
-  filter: drop-shadow(0px 2px 1px orange);
-  border-radius: 10px;
+  filter: drop-shadow(0px 0px 3px orange);
+  border-radius: 4px;
 }
 
 /* skills */
