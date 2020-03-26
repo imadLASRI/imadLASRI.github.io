@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: /intranet/
+Allow: *
+Sitemap: http://www.imadlasri.github.io/sitemap.xml
