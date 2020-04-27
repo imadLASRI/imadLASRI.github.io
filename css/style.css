@@ -910,7 +910,7 @@ header {
 
 .single_item {
   overflow: hidden;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1491,7 +1491,8 @@ footer p {
   -moz-transition: color ease 0.3s;
   cursor: pointer;
   /* float: right; */
-  padding-top: 77px;
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 
 .uptotop:after {
@@ -1593,7 +1594,7 @@ footer p {
   }
 
   .single_item {
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
   }
 }
 

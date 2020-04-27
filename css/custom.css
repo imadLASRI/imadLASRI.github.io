@@ -244,7 +244,7 @@ h1.title span {
 
 .slickSlider {
   width: 100%;
-  margin-top: 15px;
+  /* margin-top: 15px; */
 }
 
 .slickProj {
@@ -253,4 +253,11 @@ h1.title span {
 
 .no_margin {
   margin: 0;
+}
+
+.spacer60 {
+  height: 60px;
+}
+.spacer20 {
+  height: 20px;
 }
