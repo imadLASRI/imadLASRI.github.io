@@ -168,7 +168,10 @@ h1.title span {
   text-align: center;
   background-color: orange;
 }
-
+.repo:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
 .skillInProgress {
   -webkit-animation: spin 4s linear infinite;
   -moz-animation: spin 4s linear infinite;
@@ -209,7 +212,7 @@ h1.title span {
 
 /* Modal Content */
 .modal-content {
-  background-color: #fefefef0;
+  background-color: #fefefefa;
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
@@ -218,17 +221,17 @@ h1.title span {
 }
 
 /* The Close Button */
-#close {
-  color: #aaaaaa;
+.close {
+  color: #252525;
   font-size: 28px;
   font-weight: bold;
   position: absolute;
-  top: -5px;
+  top: 0;
   right: 8px;
 }
 
-#close:hover,
-#close:focus {
+.close:hover,
+.close:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
@@ -260,4 +263,58 @@ h1.title span {
 }
 .spacer20 {
   height: 20px;
+}
+
+/* MODALS STYLE */
+.modalDetails {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.modalPic {
+  width: 70%;
+}
+.modalPic img {
+  max-width: 100%;
+}
+
+.modalDesc {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.modalDesc h1 {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.modalDesc .desc {
+  margin-bottom: 10px;
+}
+.modalDesc .desc h2 {
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+.modalDesc .desc p {
+  font-size: 14px;
+  color: rgb(61, 61, 61);
+  padding-left: 5px;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.modalDesc a {
+  font-size: 18px;
+  color: black;
+}
+
+.modalDesc a:hover {
+  color: #f88520;
+  text-decoration: underline !important;
 }
