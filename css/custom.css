@@ -37,7 +37,7 @@
 }
 .projectsContainer {
   background-color: #171717db;
-  margin-top: 150px;
+  margin-top: 100px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -51,6 +51,10 @@
 .single_item figure {
   width: 80%;
   border-radius: 4px;
+}
+
+.single_item figure {
+  cursor: grabbing;
 }
 
 /* skills */
@@ -125,7 +129,7 @@ h1.title span {
 }
 
 .projectDesc {
-  opacity: 0.4;
+  opacity: 0.7;
   transition: 200ms ease;
 }
 .projectDesc:hover {
@@ -190,6 +194,19 @@ h1.title span {
   #projcustomTitle {
     font-size: 16px !important;
     width: 70%;
+  }
+
+  .skill i.colored {
+    font-size: 4em;
+  }
+
+  .col-xs-3 {
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  .projectsContainer {
+    margin-top: 50px;
   }
 }
 
@@ -317,4 +334,24 @@ h1.title span {
 .modalDesc a:hover {
   color: #f88520;
   text-decoration: underline !important;
+}
+
+@media only screen and (max-width: 900px) {
+  .modalDetails {
+    flex-direction: column;
+  }
+  .modalPic {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .modalDesc {
+    width: 100%;
+  }
+  .projectDesc {
+    opacity: 0.8;
+  }
+
+  .single_item .projectDesc i.colored {
+    font-size: 2.5em;
+  }
 }

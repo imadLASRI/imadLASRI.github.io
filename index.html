@@ -202,28 +202,28 @@
 
             <div class="skill row center-xs" style="margin-top: 50px;">
               <ul class="row center-xs bottom-xs">
-                <li class="col-md-3">
+                <li class="col-xs-3">
                   <i class="devicon-html5-plain-wordmark colored"></i>
                 </li>
-                <li class="col-md-3">
+                <li class="col-xs-3">
                   <i class="devicon-css3-plain-wordmark colored"></i>
                 </li>
-                <li class="col-md-3">
+                <li class="col-xs-3">
                   <i class="devicon-javascript-plain colored"></i>
                 </li>
-                <li class="col-md-3">
+                <li class="col-xs-3">
                   <i class="devicon-jquery-plain-wordmark colored"></i>
                 </li>
-                <li class="col-md-3">
+                <li class="col-xs-3">
                   <i class="devicon-mysql-plain-wordmark colored"></i>
                 </li>
-                <li class="col-md-3">
+                <li class="col-xs-3">
                   <i class="devicon-php-plain colored"></i>
                 </li>
-                <li class="col-md-3">
+                <li class="col-xs-3">
                   <i class="devicon-laravel-plain-wordmark colored"></i>
                 </li>
-                <li class="col-md-3">
+                <li class="col-xs-3">
                   <div class="expand">
                     <i
                       ><svg
@@ -327,7 +327,7 @@
                     </i>
                   </div>
                 </li>
-                <li class="col-md-3">
+                <li class="col-xs-3">
                   <div class="expand">
                     <i
                       ><svg
@@ -384,14 +384,14 @@
                     </i>
                   </div>
                 </li>
-                <li class="col-md-3">
+                <li class="col-xs-3">
                   <!-- <i class="devicon-java-plain-wordmark colored"></i> -->
                   <i class="devicon-photoshop-line colored"></i>
                 </li>
-                <li class="col-md-3">
+                <li class="col-xs-3">
                   <i class="devicon-git-plain colored"></i>
                 </li>
-                <li class="col-md-3">
+                <li class="col-xs-3">
                   <div class="expand">
                     <i>
                       <svg
@@ -973,6 +973,17 @@
 
         // -------------------------------------------------------------------
 
+        // Manually playing & ppausing slick ... automatique is buggy
+        $(".single_item figure").on("mouseleave", function () {
+          // Pause slider
+          $(".slickSlider").slick("slickPlay");
+        });
+        $(".single_item figure").on("mouseover", function () {
+          // Pause slider
+          $(".slickSlider").slick("slickPause");
+        });
+        //  -------------------------------------------------------------
+
         // SLICK SLIDER
 
         $(".slickSlider").slick({
@@ -983,7 +994,7 @@
           centerMode: true,
           accessibility: true,
           autoplay: true,
-          autoplaySpeed: 1000,
+          autoplaySpeed: 1500,
           centerPadding: "140px",
           responsive: [
             {

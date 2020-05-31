@@ -697,7 +697,7 @@ blockquote {
 }
 
 .page-menu li a span {
-  background: #0161ee;
+  background: rgb(209, 141, 14);
   position: absolute;
   top: 19px;
   left: -5px;
