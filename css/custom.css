@@ -76,6 +76,12 @@
 .expand svg {
   width: 4em;
 }
+#Layer_1 {
+  width: 8em;
+}
+.flutter:hover {
+  fill: #f88520
+}
 
 h3.skillName {
   font-size: 14px;
