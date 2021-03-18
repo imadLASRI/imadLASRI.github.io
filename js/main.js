@@ -472,10 +472,12 @@ if ($(window).width() > 481) {
 
     $('.expand i').mouseover(function(){
         $(this).find('g').attr('fill', '#f88520');
+        $(this).find('g').find('path').attr('fill', '#f88520');
         $(this).find('h3').css('color', '#f88520');
     });
     $('.expand i').mouseout(function(){
         $(this).find('g').attr('fill', '#fff');
+        $(this).find('g').find('path').attr('fill', '#fff');
         $(this).find('h3.skillName').css('color', '#fff');
     });
 
