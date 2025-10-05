@@ -1,14 +1,14 @@
 
 $(document).ready( function() {
-    
+
 /*--------------------------------------------------
     Portfolio Isotope Plugin
----------------------------------------------------*/	
-    
+---------------------------------------------------*/
+
     if ($('.isotope_items').length) {
         jQuery( function() {
             var $container = $('.isotope_items');
-            $container.imagesLoaded( function() {   
+            $container.imagesLoaded( function() {
                 $container.isotope({
                   layoutMode: 'packery',
                   itemSelector: '.single_item',
@@ -23,7 +23,7 @@ $(document).ready( function() {
     $('.portfolio_filter ul li a').on("click", function(){
         $('body,html').animate({scrollTop: $(".isotope_items").offset().top - 30}, 800);
         $(".portfolio_filter ul li a").removeClass("select-cat");
-        $(this).addClass("select-cat");				 
+        $(this).addClass("select-cat");
         var selector = $(this).attr('data-filter');
         $(".isotope_items").isotope({
             filter: selector,
@@ -34,25 +34,25 @@ $(document).ready( function() {
             }
     });
         return false;
-    }); 
-    
+    });
+
     $(".vf").on("click", function(){
       $('.portfolio_filter').addClass('show');
-    });     
-    
-    
+    });
+
+
     $(".portfolio_filter").on("click", function (event) {
     if (!$(event.target).is(".portfolio_filter ul li a")) {
             $('.portfolio_filter').removeClass('show');
             return false;
         }
-    });     
-    
-    
-    
-/*-------------------------------------------------- 
+    });
+
+
+
+/*--------------------------------------------------
 Preloader
----------------------------------------------------*/	
+---------------------------------------------------*/
 // $(window).on('load', function () {
 //     "use strict";
 //     // Animate loader off screen
@@ -61,7 +61,7 @@ Preloader
 // });
 
     var width = 100,
-        perfData = window.performance.timing, 
+        perfData = window.performance.timing,
         EstimatedTime = -(perfData.loadEventEnd - perfData.navigationStart),
         time = ((EstimatedTime/1000)%50) * 100
 
@@ -79,7 +79,7 @@ Preloader
             typeSpeed: 60,
             });
         var myJob = new Typed('#myJob', {
-            strings: ["I'm A Web Developer;"],
+            strings: ["I'm A Developer;"],
             typeSpeed: 60,
             loop: false
             });
@@ -113,19 +113,19 @@ Preloader
         }, stepTime);
     }
 
-    
 
-    
+
+
 	setTimeout(function(){
         $('.preloader').fadeOut();
-        
+
         $('.cd-transition-layer').addClass('closing').delay(1000).queue(function(){
             $(this).removeClass("visible closing opening").dequeue();
         });
-        
+
 	}, time);
-		
-    
+
+
 
 
    // FADE OUT EFFECT WHEN CLICK A LINK
@@ -140,7 +140,7 @@ Preloader
         });
         return false;
     });
-    
+
 
     var paget = $(".page-title .title").text();
 
@@ -148,22 +148,22 @@ Preloader
     $( ".page-title span").append(paget);
 
 
-    
-    //posts page hover 
+
+    //posts page hover
     $('.blog-post .blog-link').hover(function(){
         $(this).parent('.content-outter').parent('.blog-post').toggleClass('mousef');
         $(this).parent('.blog-post').toggleClass('mousef');
     });
 
-    
 
 
-    
-    
+
+
+
 
 /*--------------------------------------------------
 Smoke Effect
----------------------------------------------------*/	
+---------------------------------------------------*/
 
 function smokeeffect () {
 
@@ -187,7 +187,7 @@ function smokeeffect () {
     });
 
     //open modal window
-    modalTrigger.on('click', function(event){   
+    modalTrigger.on('click', function(event){
         event.preventDefault();
         transitionLayer.addClass('visible opening');
         var delay = ( $('.no-cssanimations').length > 0 ) ? 0 : 600;
@@ -265,24 +265,24 @@ smokeeffect()
 
 
 
-    
-/*-------------------------------------------------- 
+
+/*--------------------------------------------------
 Magnific Lightbox
----------------------------------------------------*/   
-    
-if ($('.lightbox').length) {  
+---------------------------------------------------*/
+
+if ($('.lightbox').length) {
     $('.lightbox').magnificPopup({
         type:'image',
         gallery:{enabled:true},
         zoom:{enabled: true, duration: 300}
-    });    
-    
+    });
+
     }
- 
-    
+
+
 /*--------------------------------------------------
  Hero Section Height
----------------------------------------------------*/	
+---------------------------------------------------*/
      function homeh() {
         var hometext = $('.main')
 
@@ -292,24 +292,24 @@ if ($('.lightbox').length) {
         $('.content').css({
            "margin-top":  $(window).height() + "px"
         });
-         
+
     }
-        
+
     homeh();
     $(window).resize(homeh);
 
     $( ".page-menu li:not(.social) a, .portfolio_filter ul li a").append( "<span></span>" );
-    
+
     $(".hassub ul").hide();
     $('li.hassub .arrow').on("click", function(){
             $('li.hassub a').not(this).next('ul').slideUp();
             $(this).next('ul').slideToggle();
-            
-    });
-    
-    
 
-    
+    });
+
+
+
+
 
     $('.nav-icon').on("click", function(){
             $(this).toggleClass('modal-close');
@@ -317,26 +317,26 @@ if ($('.lightbox').length) {
 
 
     //Filter Show
-    $(window).scroll(function() {               
+    $(window).scroll(function() {
         var scroll = $(window).scrollTop();
-        var homeheight = $(".main").height();    
-        var vf = $(".vf").height();   
-        var content = $(".content").height();          
+        var homeheight = $(".main").height();
+        var vf = $(".vf").height();
+        var content = $(".content").height();
 
 
-        if (scroll+homeheight/1.5 > homeheight - 1 ) { 
+        if (scroll+homeheight/1.5 > homeheight - 1 ) {
             $(".vf").addClass("show");
         }else {
             $(".vf").removeClass("show");
         }
 
-        if (scroll+homeheight > homeheight+content ) { 
+        if (scroll+homeheight > homeheight+content ) {
             $(".vf").addClass("fix");
         }else {
             $(".vf").removeClass("fix");
         }
-        
-        
+
+
 
     });
 
@@ -344,12 +344,12 @@ if ($('.lightbox').length) {
     $('.down-arrow').on('click', function(){
         $('body,html').animate({ scrollTop: $('.main').height() }, 800);
     });
-    
+
    //Up To Top Link
    function uptotop(){
         var pagetop = $('body').scrollTop();
         $('.uptotop').on('click', function(){
-            $('html, body').animate({ 
+            $('html, body').animate({
                 scrollTop: pagetop
             }, 800);
         });
@@ -359,19 +359,19 @@ if ($('.lightbox').length) {
 
 window.onpageshow = function(event) {
     if (event.persisted) {
-        window.location.reload() 
+        window.location.reload()
     }
 };
 
 $(window).bind("pageshow", function(event) {
     if (event.originalEvent.persisted) {
-        window.location.reload() 
+        window.location.reload()
     }
 });
-    
+
 /*--------------------------------------------------
  Footer Height
----------------------------------------------------*/	
+---------------------------------------------------*/
     // var wind = $(window)
     // function footsize() {
     //     if ($('footer').height() < wind.height()) {
@@ -397,7 +397,7 @@ $(window).bind("pageshow", function(event) {
 
 /*--------------------------------------------------
  Hero Effect
----------------------------------------------------*/   
+---------------------------------------------------*/
 
 if ($(window).width() > 481) {
       function promoEffect() {
@@ -406,7 +406,7 @@ if ($(window).width() > 481) {
         pro.css({
             // 'transform': 'scale('+(100 - where/100)/100+')',
              'opacity' : (1 - (where/20) / 35)
-        }) 
+        })
     }
     promoEffect();
     $(window).scroll(promoEffect);
@@ -417,17 +417,17 @@ if ($(window).width() > 481) {
         pro.css({
             // 'transform': 'scale('+(100 - where/100)/99+')',
              'opacity' : (1 - (where/20) / 15)
-        }) 
+        })
     }
     promoEffect();
     $(window).scroll(promoEffect);
 
 }
 
-  
+
  /*--------------------------------------------------
     Owl Carousel General Js
----------------------------------------------------*/	   
+---------------------------------------------------*/
 
     var owlcar = $('.owl-carousel');
     if (owlcar.length) {
@@ -483,9 +483,4 @@ if ($(window).width() > 481) {
 
 
 
-}); // document read end 
-
-
-
-
-
+}); // document read end
