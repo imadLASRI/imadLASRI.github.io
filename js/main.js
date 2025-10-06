@@ -471,9 +471,9 @@ if ($(window).width() > 481) {
     }
 
     $('.expand i').mouseover(function(){
-        $(this).find('g').attr('fill', '#f88520');
-        $(this).find('g').find('path').attr('fill', '#f88520');
-        $(this).find('h3').css('color', '#f88520');
+        $(this).find('g').attr('fill', '#58c4dc')
+				$(this).find('g').find('path').attr('fill', '#58c4dc')
+				$(this).find('h3').css('color', '#58c4dc')
     });
     $('.expand i').mouseout(function(){
         $(this).find('g').attr('fill', '#fff');

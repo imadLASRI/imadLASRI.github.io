@@ -255,7 +255,7 @@ blockquote {
 }
 
 .hello {
-  color: #f88520;
+  color: #58c4dc;
   line-height: 51px;
   font-size: 18px;
 }
@@ -697,7 +697,7 @@ blockquote {
 }
 
 .page-menu li a span {
-  background: rgb(209, 141, 14);
+  background: rgb(50, 151, 219);
   position: absolute;
   top: 19px;
   left: -5px;
