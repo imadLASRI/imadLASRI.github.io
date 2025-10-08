@@ -75,14 +75,14 @@ Preloader
             loop: false
             });
         var myName = new Typed('#myName', {
-            strings: ["Imad LASRI"],
-            typeSpeed: 60,
-            });
-        var myJob = new Typed('#myJob', {
-            strings: ["I'm A Developer;"],
-            typeSpeed: 60,
-            loop: false
-            });
+					strings: ['LASRI Imad'],
+					typeSpeed: 60,
+				})
+				var myJob = new Typed('#myJob', {
+					strings: ['I_m_A_D_eveloper;'],
+					typeSpeed: 60,
+					loop: false,
+				})
         // ========================================================================
     }, time);
 
